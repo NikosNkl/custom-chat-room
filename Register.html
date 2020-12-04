@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<META NAME="Keywords" CONTENT="Chatting ,IM ,Instant Messaging Ultimate , ΔΠΘ, Δημοκρίτειο Πανεπιστήμιο Θράκης, Τμήμα Ηλεκτρολόγων, HTML">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<link rel="stylesheet" type="text/css" href="Homepage.css">
+<TITLE>Instant Messaging Ultimate-Login</TITLE>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script>
+function validateForm() {
+    var x = document.forms["register"]["email"].value;
+    if (x == "") {
+        alert("Δεν πληκτρολογήσατε e-mail");
+        return false;
+    }
+	var y = document.forms["register"]["username"].value;
+    if (y == "") {
+        alert("Δεν πληκτρολογήσατε username");
+        return false;
+    }
+	var z = document.forms["register"]["password"].value;
+    if (z == "") {
+        alert("Δεν πληκτρολογήσατε κωδικό");
+        return false;
+    }
+	var k = document.forms["register"]["r_password"].value;
+    if (k == "") {
+        alert("Δεν επαναπληκτρολογήσατε κωδικό");
+        return false;
+    }
+	}
+</script>
+<body>
+<ul>
+ <li><a href="Homepage.html"><span class="menu">Αρχική</span></a></li>
+  <li><a href="Contact.html"><span class="menu">Επικοινωνία</span></a></li>
+  <li><a href="Login2.php"><span class="menu">Chat</span></a></li>
+</ul>
+<form name="register" action="register.php" method=post onsubmit="return validateForm()">
+<div><h4>
+  E-mail:<br>
+  <input type="text" name="email"><br>
+  Password:<br>
+  <input type="password" name="password"><br>
+  Retype Password:<br>
+  <input type="password" name="r_password"><br>
+   <br><input type="submit" id="btn" NAME="register_btn" value="Εγγραφή">
+</h4></div></form>
+</body>
+</html>

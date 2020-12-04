@@ -1,0 +1,82 @@
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+    a:hover { text-decoration:underline; }
+  
+#wrapper {
+    margin:0 auto;
+    background:rgba(255,255,255,0.5);
+    width:504px;
+    border:1px solid #ACD8F0; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font:12px arial;
+    color: #222;
+    text-align:center;
+    padding:35px; }
+
+  
+#chatOutput {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:270px;
+    width:430px;
+    border:1px solid #56b5dd;
+    overflow:auto; }
+  
+#chat_text {
+    width:395px;
+    border:1px solid #56b5dd; }
+  
+#submit { width: 60px; }
+  
+.error { color: #ff0000; }
+  
+#menu { padding:12.5px 25px 12.5px 25px; }
+  
+.welcome { float:left; 
+ font-family: "Verdana",Lucida Console, serif;
+ text-decoration: bold;
+ color: white;}
+  
+.msgln { margin:0 0 2px 0; }
+.menu{text-align:left;
+ font-family: "Verdana",Lucida Console, serif;
+ color: white;
+ }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}

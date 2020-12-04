@@ -1,0 +1,69 @@
+body {
+    background-image: url("background2.jpg");
+}
+.menu{text-align:left;
+ font-family: "Verdana",Lucida Console, serif;
+ color: white;
+ }
+ h4
+ {text-align: center;
+ font-family: "Verdana",Lucida Console, serif;
+ text-decoration: bold;
+ text-shadow: 2px 2px #000000;
+ color: white;
+ }
+ #body
+ {text-align: center;
+ font-family: "Verdana",Lucida Console, serif;
+ text-decoration: bold;
+ text-shadow: 2px 2px #000000;
+ color: white;
+ }
+ h6
+ {text-align: center;
+ font-family: "Verdana",Lucida Console, serif;
+ text-decoration: bold;
+ color: white;
+ }
+ div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+#btn {
+    background-color: rgba(255,255,255,0.5); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
